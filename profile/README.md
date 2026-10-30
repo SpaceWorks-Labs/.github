@@ -20,6 +20,8 @@ Start with the complete makerspace platform, or choose a standalone app for the 
 
 [**SpaceWorks**](https://github.com/SpaceWorks-Labs/SpaceWorks) brings day-to-day makerspace operations into one modular, multi-tenant platform. One deployment can serve several spaces, each with its own members, inventory, roles and settings. Enable the modules your space needs.
 
+**The hub brings inventory, lending, machines, events, bookings and membership management together in one installation.** The standalone apps below focus on those same areas for communities that only need one part. **Workspace is a separate internal team tool**, outside the hub's makerspace modules.
+
 - **Inventory and lending:** public catalogues, borrow requests, QR checkout, photo-evidence handovers, returns and an audit trail.
 - **Machines and making:** machine records, 3D-printing requests, service queues, consumables and maintenance.
 - **Community:** events, registration, QR check-in, bookable spaces, memberships and maker profiles.
@@ -29,9 +31,9 @@ Start with the complete makerspace platform, or choose a standalone app for the 
 
 [Explore the platform](https://github.com/SpaceWorks-Labs/SpaceWorks#readme) · [Browse its modules](https://github.com/SpaceWorks-Labs/SpaceWorks/blob/main/docs/MODULES.md) · [Install and self-host](https://github.com/SpaceWorks-Labs/SpaceWorks#quick-start)
 
-## Standalone apps — choose what your space needs
+## Standalone makerspace apps — choose what your space needs
 
-These are independent applications with their own backends, databases and installation guides. They cover focused parts of the Space Works ecosystem and can be deployed without the main platform. Where supported, APIs and webhooks connect them to other tools; running several apps does not automatically combine their accounts or data.
+Inventory, Machines, Events, Bookings and Organization offer focused alternatives to the corresponding areas in the hub. Each is an independent application with its own backend, database and installation guide, and can be deployed without the main platform. Where supported, APIs and webhooks connect them to other tools; running several apps does not automatically combine their accounts or data.
 
 | Project | What it does |
 | --- | --- |
@@ -40,9 +42,14 @@ These are independent applications with their own backends, databases and instal
 | [**SpaceWorks-Events**](https://github.com/SpaceWorks-Labs/SpaceWorks-Events) | Event pages, registration, free or paid tickets, live QR tickets, offline check-in, badges, feedback and certificates. |
 | [**SpaceWorks-Bookings**](https://github.com/SpaceWorks-Labs/SpaceWorks-Bookings) | Rooms, studios, desks and halls: live availability, recurring bookings, approvals, check-in, payments and cancellation policies. |
 | [**SpaceWorks-Organization**](https://github.com/SpaceWorks-Labs/SpaceWorks-Organization) | Memberships for clubs, associations and alumni bodies: join forms, plans, approvals, renewals, payments, GST receipts and verifiable member cards. In active development. |
-| [**SpaceWorks-Workspace**](https://github.com/SpaceWorks-Labs/SpaceWorks-Workspace) | Internal team operations: projects and kanban, chat, docs, files, finance, people, governance and an AI assistant with MCP. |
 
 **Shared app stack:** TypeScript · Next.js 16 · React 19 · Prisma · PostgreSQL · Tailwind CSS · Radix UI. Self-hosted deployments use Docker Compose, Redis, background workers and S3-compatible storage, including Silo. Each repository documents its own configuration and hosting options.
+
+## Workspace — an internal tool for your team
+
+[**SpaceWorks-Workspace**](https://github.com/SpaceWorks-Labs/SpaceWorks-Workspace) is the separate internal workspace for the people running a makerspace, community or organisation. It covers projects and kanban, chat, docs, files, finance, people, governance and an AI assistant with MCP. It runs independently alongside the makerspace hub or any standalone apps; its internal team features are not included in the hub.
+
+**Stack:** TypeScript · Next.js 16 · React 19 · Prisma · PostgreSQL · Tailwind CSS · Radix UI · Redis · S3-compatible storage · Docker Compose.
 
 ## Native mobile clients
 
