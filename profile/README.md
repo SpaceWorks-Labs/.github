@@ -75,7 +75,13 @@ Your community can run the software on its own infrastructure and contribute imp
 
 Space Works grew out of everyday making at **TinkerSpace Kochi**: finding tools, lending equipment and keeping a shared workshop running. The same practical questions guide the ecosystem today.
 
-Try an app, report a reproducible bug, improve a guide, translate a screen, or share a tested hardware integration. Read the chosen repository's contributing guide for its setup, checks and target branch.
+Try an app, report a reproducible bug, improve a guide, translate a screen, or share a tested hardware integration. For code contributions:
+
+1. **Fork the right repository.** Read its contributing guide, branch from the documented development branch, and keep your change focused on one issue.
+2. **Keep the existing stack.** Follow the repository's languages, frameworks, architecture and design system. Discuss a new dependency or a stack change with maintainers before introducing it.
+3. **Test the behavior.** Add meaningful tests for new behavior and a regression test for a bug fix. Cover relevant error cases, permissions and tenant isolation; use integration tests when a change crosses database or API boundaries.
+4. **Run the repository's checks.** Run its documented tests, type checks, lint and build checks as applicable. Update documentation and API schemas when behavior or endpoints change, and keep secrets and personal data out of commits and test fixtures.
+5. **Open a pull request from your fork.** Target the branch named in that repository's guide, link the issue, explain what changed and why, and include the checks you ran and their results. Add screenshots for UI changes and work through review feedback with the maintainers.
 
 [Find an issue](https://github.com/search?q=org%3ASpaceWorks-Labs+is%3Aissue+is%3Aopen&type=issues) · [Contributing guide](https://github.com/SpaceWorks-Labs/.github/blob/main/CONTRIBUTING.md) · [Get help](https://github.com/SpaceWorks-Labs/.github/blob/main/SUPPORT.md) · [Report a security issue privately](https://github.com/SpaceWorks-Labs/.github/blob/main/SECURITY.md)
 
