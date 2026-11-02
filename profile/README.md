@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SpaceWorks-Labs/.github/main/profile/assets/banner-dark.png">
-  <img alt="Space Works — Less searching. More making. Open-source software for makerspaces and communities." src="https://raw.githubusercontent.com/SpaceWorks-Labs/.github/main/profile/assets/banner-light.png">
+  <img alt="Space Works — Run the space. Not the spreadsheets. Free, open-source makerspace software." src="https://raw.githubusercontent.com/SpaceWorks-Labs/.github/main/profile/assets/banner-light.png">
 </picture>
 
 <p align="center">
