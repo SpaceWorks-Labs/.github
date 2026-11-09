@@ -16,6 +16,20 @@
 
 Start with the complete makerspace platform, or choose a standalone app for the job you need. Host it on your own infrastructure, keep control of your data, and adapt it to the way your community works.
 
+## Why Space Works exists
+
+> I'm Shaan, an electronics student who moved into software. Almost everything I know, I learned in a makerspace.
+>
+> I never had to buy every component and tool to learn hardware. I learned on the shared equipment at TinkerSpace by borrowing parts, breaking things and fixing them. The more I contributed, the more I was trusted with. I became its hardware and inventory manager, then a hardware mentor. Giving back to the space put me on stage as a speaker, made me a mentor at events, got me a seat as a hackathon judge, and led to my first internship. None of that came from a course or a résumé. It came from showing up, helping and sharing what I learned.
+>
+> Running the inventory also showed me the unglamorous side of keeping a space alive. Who borrowed the multimeter? Which 3D printer is free? Who's coming to Saturday's workshop? Whose membership is due? Talking with the team, I kept hearing the same thing: good spaces were being held back by software that was missing, expensive, or a patchwork of spreadsheets and chat groups that only one person understood.
+>
+> Today almost anyone can build almost anything. Software shouldn't be what stops someone from starting a makerspace. So I set out to rebuild the whole makerspace toolkit as free, self-hostable software, so any space can have it from day one.
+>
+> It's open source for the same reason makerspaces work: we share, remix and build on each other's work. Every space runs a little differently, so fork it, make it yours, and if you build something other spaces could use, send it back.
+>
+> — Shaan, who started Space Works at TinkerSpace Kochi
+
 ## SpaceWorks — the makerspace hub
 
 [**SpaceWorks**](https://github.com/SpaceWorks-Labs/SpaceWorks) brings day-to-day makerspace operations into one modular, multi-tenant platform. One deployment can serve several spaces, each with its own members, inventory, roles and settings. Enable the modules your space needs.
@@ -79,8 +93,6 @@ Use, study, modify and share the software, including for commercial work, under 
 Your community can run the software on its own infrastructure and contribute improvements back to the ecosystem.
 
 ## Build with us
-
-Space Works grew out of everyday making at **TinkerSpace Kochi**: finding tools, lending equipment and keeping a shared workshop running. The same practical questions guide the ecosystem today.
 
 Try an app, report a reproducible bug, improve a guide, translate a screen, or share a tested hardware integration. For code contributions:
 
