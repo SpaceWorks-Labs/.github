@@ -24,7 +24,9 @@ Start with the complete makerspace platform, or choose a standalone app for the 
 >
 > Running the inventory also showed me the unglamorous side of keeping a space alive. Who borrowed the multimeter? Which 3D printer is free? Who's coming to Saturday's workshop? Whose membership is due? Talking with the team, I kept hearing the same thing: good spaces were being held back by software that was missing, expensive, or a patchwork of spreadsheets and chat groups that only one person understood.
 >
-> Today almost anyone can build almost anything. Software shouldn't be what stops someone from starting a makerspace. So I set out to rebuild the whole makerspace toolkit as free, self-hostable software, so any space can have it from day one.
+> I've seen what a makerspace can do for people. It's where I got my chances: tools to learn on, the trust to take on more, a stage, mentoring and my first internship. I want more people to get that same start, and that means more spaces, run well.
+>
+> Today almost anyone can build almost anything. If someone is inspired to start a makerspace, technology shouldn't be what holds them back, and makerspaces shouldn't be the last places to get good tech. So I set out to rebuild the whole makerspace toolkit as free, self-hostable software, so any space can have it from day one. If Space Works helps one more space open its doors, someone else gets the start I got.
 >
 > It's open source for the same reason makerspaces work: we share, remix and build on each other's work. Every space runs a little differently, so fork it, make it yours, and if you build something other spaces could use, send it back.
 >
