@@ -22,9 +22,13 @@ Start with the complete makerspace platform, or choose a standalone app for the 
 >
 > I never had to buy every component and tool to learn hardware. I learned on the shared equipment at TinkerSpace by borrowing parts, breaking things and fixing them. The more I contributed, the more I was trusted with. I became its hardware and inventory manager, then a hardware mentor. Giving back to the space put me on stage as a speaker, made me a mentor at events, got me a seat as a hackathon judge, and led to my first internship. None of that came from a course or a résumé. It came from showing up, helping and sharing what I learned.
 >
-> Running the inventory also showed me the unglamorous side of keeping a space alive. Who borrowed the multimeter? Which 3D printer is free? Who's coming to Saturday's workshop? Whose membership is due? Talking with the team, I kept hearing the same thing: good spaces were being held back by software that was missing, expensive, or a patchwork of spreadsheets and chat groups that only one person understood.
+> Running the inventory also showed me the unglamorous side of keeping a space alive. Who borrowed the multimeter? Which 3D printer is free? When was the laser cutter last serviced? TinkerSpace already had systems for much of how it ran, but nothing for inventory and machines. That was the gap I lived in every day, so that's where Space Works started.
+>
+> Then I asked myself a bigger question: if I ever started a makerspace of my own, what would I want from day one? Events and registrations, bookable rooms, memberships, a place for the team to work. I kept adding them, one by one, until it covered the whole space.
 >
 > I've seen what a makerspace can do for people. It's where I got my chances: tools to learn on, the trust to take on more, a stage, mentoring and my first internship. I want more people to get that same start, and that means more spaces, run well.
+>
+> Everything in Space Works is something I learned by keeping a real space running. Building it is my way of passing that on, so the next person doesn't have to learn it all the hard way.
 >
 > Today almost anyone can build almost anything. If someone is inspired to start a makerspace, technology shouldn't be what holds them back, and makerspaces shouldn't be the last places to get good tech. So I set out to rebuild the whole makerspace toolkit as free, self-hostable software, so any space can have it from day one. If Space Works helps one more space open its doors, someone else gets the start I got.
 >
