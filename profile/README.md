@@ -52,15 +52,15 @@ Start with the complete makerspace platform today; focused standalone apps for s
 
 [Explore the platform](https://github.com/SpaceWorks-Labs/SpaceWorks#readme) · [Browse its modules](https://github.com/SpaceWorks-Labs/SpaceWorks/blob/main/docs/MODULES.md) · [Install and self-host](https://github.com/SpaceWorks-Labs/SpaceWorks#quick-start)
 
-## Standalone makerspace apps — on the way
-
-Focused, standalone versions of the hub's main areas are being prepared for release: **Inventory** (stock room and lending desk), **Machines** (job requests, queues, maintenance and printer connections), **Events** (registration, QR tickets, check-in, badges and certificates), **Bookings** (rooms, studios, desks and halls) and **Organization** (memberships, renewals, payments and member cards). Each will be an independent app with its own backend, database and installation guide. Their repositories are private while they get ready; they will open here when they are released. Until then, the [SpaceWorks hub](https://github.com/SpaceWorks-Labs/SpaceWorks) covers all of these areas in one installation.
-
 ## Workspace — an internal tool for your team
 
 [**SpaceWorks-Workspace**](https://github.com/SpaceWorks-Labs/SpaceWorks-Workspace) is the separate internal workspace for the people running a makerspace, community or organisation. It covers projects and kanban, chat, docs, files, finance, people, governance and an AI assistant with MCP. It runs independently alongside the makerspace hub or any standalone apps; its internal team features are not included in the hub.
 
 **Stack:** TypeScript · Next.js 16 · React 19 · Prisma · PostgreSQL · Tailwind CSS · Radix UI · Redis · S3-compatible storage · Docker Compose.
+
+## Standalone makerspace apps — on the way
+
+Focused, standalone versions of the hub's main areas are being prepared for release: **Inventory** (stock room and lending desk), **Machines** (job requests, queues, maintenance and printer connections), **Events** (registration, QR tickets, check-in, badges and certificates), **Bookings** (rooms, studios, desks and halls) and **Organization** (memberships, renewals, payments and member cards). Each will be an independent app with its own backend, database and installation guide. Their repositories are private while they get ready; they will open here when they are released. Until then, the [SpaceWorks hub](https://github.com/SpaceWorks-Labs/SpaceWorks) covers all of these areas in one installation.
 
 ## Native mobile clients
 
