@@ -4,9 +4,8 @@
 </picture>
 
 <p align="center">
-  <a href="https://spaceworks-labs.github.io/SpaceWorks-Website/"><b>Website</b></a> ·
-  <a href="https://spaceworks-labs.github.io/SpaceWorks-Docs/"><b>Documentation</b></a> ·
-  <a href="https://spaceworks-labs.github.io/SpaceWorks-Design/"><b>Design system</b></a> ·
+  <a href="https://spaceworks-labs.github.io/SpaceWorks-Labs-Website/"><b>Website</b></a> ·
+  <a href="https://spaceworks-labs.github.io/SpaceWorks-Design-System/"><b>Design system</b></a> ·
   <a href="https://github.com/SpaceWorks-Labs/SpaceWorks#quick-start"><b>Get started</b></a>
 </p>
 
@@ -14,7 +13,7 @@
 
 **Space Works builds free, open-source, self-hosted software for makerspaces, fab labs, tool libraries and the communities around them.** Track shared tools, run machines, host events, book rooms, manage memberships and give your team a place to work.
 
-Start with the complete makerspace platform, or choose a standalone app for the job you need. Host it on your own infrastructure, keep control of your data, and adapt it to the way your community works.
+Start with the complete makerspace platform today; focused standalone apps for single jobs are on the way. Host it on your own infrastructure, keep control of your data, and adapt it to the way your community works.
 
 ## Why Space Works exists
 
@@ -53,19 +52,9 @@ Start with the complete makerspace platform, or choose a standalone app for the 
 
 [Explore the platform](https://github.com/SpaceWorks-Labs/SpaceWorks#readme) · [Browse its modules](https://github.com/SpaceWorks-Labs/SpaceWorks/blob/main/docs/MODULES.md) · [Install and self-host](https://github.com/SpaceWorks-Labs/SpaceWorks#quick-start)
 
-## Standalone makerspace apps — choose what your space needs
+## Standalone makerspace apps — on the way
 
-Inventory, Machines, Events, Bookings and Organization offer focused alternatives to the corresponding areas in the hub. Each is an independent application with its own backend, database and installation guide, and can be deployed without the main platform. Where supported, APIs and webhooks connect them to other tools; running several apps does not automatically combine their accounts or data.
-
-| Project | What it does |
-| --- | --- |
-| [**SpaceWorks-Inventory**](https://github.com/SpaceWorks-Labs/SpaceWorks-Inventory) | A stock room and lending desk: catalogues, serialized assets, QR labels, photo-evidence loans, stock counts and transfers between spaces. |
-| [**SpaceWorks-Machines**](https://github.com/SpaceWorks-Labs/SpaceWorks-Machines) | Machine catalogues, job requests and queues, pricing and payments, consumables, repairs, maintenance and printer connections. |
-| [**SpaceWorks-Events**](https://github.com/SpaceWorks-Labs/SpaceWorks-Events) | Event pages, registration, free or paid tickets, live QR tickets, offline check-in, badges, feedback and certificates. |
-| [**SpaceWorks-Bookings**](https://github.com/SpaceWorks-Labs/SpaceWorks-Bookings) | Rooms, studios, desks and halls: live availability, recurring bookings, approvals, check-in, payments and cancellation policies. |
-| [**SpaceWorks-Organization**](https://github.com/SpaceWorks-Labs/SpaceWorks-Organization) | Memberships for clubs, associations and alumni bodies: join forms, plans, approvals, renewals, payments, GST receipts and verifiable member cards. In active development. |
-
-**Shared app stack:** TypeScript · Next.js 16 · React 19 · Prisma · PostgreSQL · Tailwind CSS · Radix UI. Self-hosted deployments use Docker Compose, Redis, background workers and S3-compatible storage, including Silo. Each repository documents its own configuration and hosting options.
+Focused, standalone versions of the hub's main areas are being prepared for release: **Inventory** (stock room and lending desk), **Machines** (job requests, queues, maintenance and printer connections), **Events** (registration, QR tickets, check-in, badges and certificates), **Bookings** (rooms, studios, desks and halls) and **Organization** (memberships, renewals, payments and member cards). Each will be an independent app with its own backend, database and installation guide. Their repositories are private while they get ready; they will open here when they are released. Until then, the [SpaceWorks hub](https://github.com/SpaceWorks-Labs/SpaceWorks) covers all of these areas in one installation.
 
 ## Workspace — an internal tool for your team
 
@@ -88,13 +77,14 @@ Both clients can be configured for your own SpaceWorks backend. Live authenticat
 
 | Project | What it holds | Stack / formats |
 | --- | --- | --- |
-| [**SpaceWorks-Design**](https://github.com/SpaceWorks-Labs/SpaceWorks-Design) | Brand guidelines, logo masters, Patch the mascot, icons, design tokens and UX specifications; reusable as a Git submodule. | SVG · CSS / JSON tokens · Astro Starlight |
-| [**SpaceWorks-Docs**](https://github.com/SpaceWorks-Labs/SpaceWorks-Docs) | Installation, self-hosting, configuration, staff guides, developer documentation and API reference for the main platform. | Astro Starlight · Markdown / MDX |
-| [**SpaceWorks-Website**](https://github.com/SpaceWorks-Labs/SpaceWorks-Website) | The public landing page introducing Space Works. | HTML · CSS · JavaScript · Python build script |
+| [**SpaceWorks-Design-System**](https://github.com/SpaceWorks-Labs/SpaceWorks-Design-System) | **Space Works Design System v2.0** — the shared base for every Space Works product: brand guidelines v2, logo masters and the animated box mark, Patch the mascot, icons, design tokens for light and dark, motion templates, UX specifications and product rules. [Browse the site](https://spaceworks-labs.github.io/SpaceWorks-Design-System/); reusable as a Git submodule. | SVG · CSS / JSON tokens · Astro Starlight |
+| [**SpaceWorks-Labs-Website**](https://github.com/SpaceWorks-Labs/SpaceWorks-Labs-Website) | The public landing page introducing Space Works. | HTML · CSS · JavaScript · Python build script |
+
+**Documentation lives in each repository.** The separate SpaceWorks-Docs site has been retired: installation, self-hosting, configuration, guides and API reference now sit inside the project they describe (its README and `docs/` folder), so they change in the same pull request as the code.
 
 ## Open source, under the AGPL
 
-**Every project listed here is open source and carries the GNU Affero General Public License v3.** Most specify **AGPL-3.0-or-later**; each repository's license and notices define the applicable terms.
+**Every public project here is open source and carries the GNU Affero General Public License v3**, and the standalone apps will be too when they are released. Most specify **AGPL-3.0-or-later**; each repository's license and notices define the applicable terms.
 
 Use, study, modify and share the software, including for commercial work, under those terms. If you modify an AGPL application and let people use it over a network, offer those users the corresponding source for your modified version. Third-party dependencies, fonts and reference materials retain their own licenses.
 
