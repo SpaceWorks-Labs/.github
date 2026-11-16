@@ -9,11 +9,20 @@
   <a href="https://github.com/SpaceWorks-Labs/SpaceWorks#quick-start"><b>Get started</b></a>
 </p>
 
+<p align="center">
+  <sub><b>Standalone apps, in development:</b></sub>
+  <a href="https://github.com/SpaceWorks-Labs/SpaceWorks-Inventory">Inventory</a> ·
+  <a href="https://github.com/SpaceWorks-Labs/SpaceWorks-Machines">Machines</a> ·
+  <a href="https://github.com/SpaceWorks-Labs/SpaceWorks-Events">Events</a> ·
+  <a href="https://github.com/SpaceWorks-Labs/SpaceWorks-Bookings">Bookings</a> ·
+  <a href="https://github.com/SpaceWorks-Labs/SpaceWorks-Organization">Organization</a>
+</p>
+
 # Built in a makerspace. Shared with everyone.
 
 **Space Works builds free, open-source, self-hosted software for makerspaces, fab labs, tool libraries and the communities around them.** Track shared tools, run machines, host events, book rooms, manage memberships and give your team a place to work.
 
-Start with the complete makerspace platform today; focused standalone apps for single jobs are on the way. Host it on your own infrastructure, keep control of your data, and adapt it to the way your community works.
+Start with the complete makerspace platform today; focused standalone apps for single jobs are in development. Host it on your own infrastructure, keep control of your data, and adapt it to the way your community works.
 
 ## Why Space Works exists
 
@@ -58,9 +67,19 @@ Start with the complete makerspace platform today; focused standalone apps for s
 
 **Stack:** TypeScript · Next.js 16 · React 19 · Prisma · PostgreSQL · Tailwind CSS · Radix UI · Redis · S3-compatible storage · Docker Compose.
 
-## Standalone makerspace apps — on the way
+## Standalone makerspace apps — in development
 
-Focused, standalone versions of the hub's main areas are being prepared for release: **Inventory** (stock room and lending desk), **Machines** (job requests, queues, maintenance and printer connections), **Events** (registration, QR tickets, check-in, badges and certificates), **Bookings** (rooms, studios, desks and halls) and **Organization** (memberships, renewals, payments and member cards). Each will be an independent app with its own backend, database and installation guide. Their repositories are private while they get ready; they will open here when they are released. Until then, the [SpaceWorks hub](https://github.com/SpaceWorks-Labs/SpaceWorks) covers all of these areas in one installation.
+Focused, standalone versions of the hub's main areas are in development. Each is an independent web app with its own backend, database and installation guide.
+
+| App | What it does |
+| --- | --- |
+| [**SpaceWorks-Inventory**](https://github.com/SpaceWorks-Labs/SpaceWorks-Inventory) | Stock room and lending desk: catalogue and QR labels, member lending with photo-evidence handovers, cycle counts and transfers between spaces. |
+| [**SpaceWorks-Machines**](https://github.com/SpaceWorks-Labs/SpaceWorks-Machines) | Machine catalogue, job requests with a queue, pricing and payments, repairs, consumables, maintenance and 3D-printer connections. |
+| [**SpaceWorks-Events**](https://github.com/SpaceWorks-Labs/SpaceWorks-Events) | Event pages, registration, live QR tickets, offline check-in, badges, member IDs and certificates. |
+| [**SpaceWorks-Bookings**](https://github.com/SpaceWorks-Labs/SpaceWorks-Bookings) | Rooms, studios, desks and halls, with live availability, approvals, free or paid bookings and refund policies. |
+| [**SpaceWorks-Organization**](https://github.com/SpaceWorks-Labs/SpaceWorks-Organization) | Memberships, join forms, renewals, payments, receipts and member ID cards. |
+
+The repositories are public, so you can follow along, try a build and contribute while they are finished. **The standalone apps are web apps only and will not have native iOS or Android apps.** Until they are released, the [SpaceWorks hub](https://github.com/SpaceWorks-Labs/SpaceWorks) covers all of these areas in one installation.
 
 ## Native mobile clients
 
@@ -71,20 +90,20 @@ Take the SpaceWorks makerspace platform to the workshop floor. The native client
 | [**SpaceWorks-iOS**](https://github.com/SpaceWorks-Labs/SpaceWorks-iOS) | Swift · SwiftUI · generated OpenAPI client · Xcode | iPhone and iPad, iOS 17+ |
 | [**SpaceWorks-Android**](https://github.com/SpaceWorks-Labs/SpaceWorks-Android) | Kotlin · Jetpack Compose · Material 3 · generated OpenAPI client · Gradle | Android phones and tablets, Android 8+ |
 
-Both clients can be configured for your own SpaceWorks backend. Live authentication, payments and push notifications depend on deployment setup; see each repository for current validation and release readiness.
+The native clients are for the SpaceWorks hub only; the standalone apps have no native apps. Both clients can be configured for your own SpaceWorks backend. Live authentication, payments and push notifications depend on deployment setup; see each repository for current validation and release readiness.
 
 ## Shared foundations
 
 | Project | What it holds | Stack / formats |
 | --- | --- | --- |
-| [**SpaceWorks-Design-System**](https://github.com/SpaceWorks-Labs/SpaceWorks-Design-System) | **Space Works Design System v2.0** — the shared base for every Space Works product: brand guidelines v2, logo masters and the animated box mark, Patch the mascot, icons, design tokens for light and dark, motion templates, UX specifications and product rules. [Browse the site](https://spaceworks-labs.github.io/SpaceWorks-Design-System/); reusable as a Git submodule. | SVG · CSS / JSON tokens · Astro Starlight |
+| [**SpaceWorks-Design-System**](https://github.com/SpaceWorks-Labs/SpaceWorks-Design-System) | **Space Works Design System v2.5** — the shared base for every Space Works product: brand guidelines v2, logo masters and the animated box mark, Patch the mascot, icons, design tokens for light and dark, components and patterns, motion templates, UX specifications and one uniform set of product rules. [Browse the site](https://spaceworks-labs.github.io/SpaceWorks-Design-System/); reusable as a Git submodule. | SVG · CSS / JSON tokens · Astro Starlight |
 | [**SpaceWorks-Labs-Website**](https://github.com/SpaceWorks-Labs/SpaceWorks-Labs-Website) | The public landing page introducing Space Works. | HTML · CSS · JavaScript · Python build script |
 
 **Documentation lives in each repository.** The separate SpaceWorks-Docs site has been retired: installation, self-hosting, configuration, guides and API reference now sit inside the project they describe (its README and `docs/` folder), so they change in the same pull request as the code.
 
 ## Open source, under the AGPL
 
-**Every public project here is open source and carries the GNU Affero General Public License v3**, and the standalone apps will be too when they are released. Most specify **AGPL-3.0-or-later**; each repository's license and notices define the applicable terms.
+**Every public project here is open source and carries the GNU Affero General Public License v3**, including the standalone apps in development. Most specify **AGPL-3.0-or-later**; each repository's license and notices define the applicable terms.
 
 Use, study, modify and share the software, including for commercial work, under those terms. If you modify an AGPL application and let people use it over a network, offer those users the corresponding source for your modified version. Third-party dependencies, fonts and reference materials retain their own licenses.
 
